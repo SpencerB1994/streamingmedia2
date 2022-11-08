@@ -3,8 +3,10 @@ html {
     font-family: 'Raleway', Arial, serif;
     background-color: #020659;
 }
+
 button {
     margin-top: 20px;
+    margin-left: 20px;
     padding: 10px 40px 10px 40px;
     color: white;
     background: #590242;
@@ -157,8 +159,8 @@ button {
 /* Trending Section */
     main {
         background-color: white;
-        padding: 10px;
         position: relative;
+        padding-bottom: 20px;
     }
     h2 {
         margin: 0px;
@@ -174,6 +176,7 @@ button {
         overflow: scroll;
         overflow-y: hidden;
         height: 335px;
+        padding: 10px;
     }
     .trending audio {
         display: flex;
@@ -262,6 +265,44 @@ button {
         display: flex;
         position: relative;
     }
+    .playlists {
+        display: flex;
+        background-color: #2699fb;
+        padding: 10px;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+    .playlists section {
+        display: block;
+        float: left;
+        padding: 10px;
+        margin-right: 10px;
+        width: 150px;
+        background-color: #0f8dfb;
+    }
+    .playlists section h3, .playlists section p {
+        text-align: center;
+        color: white;
+    }
+    .playlists2 {
+        display: flex;
+        background-color: #01148c;
+        padding: 10px;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+    .playlists2 section {
+        display: block;
+        float: left;
+        padding: 10px;
+        margin-right: 10px;
+        width: 150px;
+        background-color: #020e73;
+    }
+    .playlists2 section h3, .playlists2 section p {
+        text-align: center;
+        color: white;
+    }
 }
 
 
@@ -334,6 +375,7 @@ button {
         margin: 0 auto;
     }
 }
+
 @media screen and (min-width:834px) {
     ul {
         overflow: visible;
