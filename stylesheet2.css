@@ -159,10 +159,12 @@ html {
     }
     .trending {
         display: flex;
+        position: relative;
         margin: 0 auto;
         grid-gap: 10px;
         overflow: scroll;
-        height: 300px;
+        overflow-y: hidden;
+        height: 335px;
     }
     .trending audio {
         display: flex;
@@ -176,7 +178,6 @@ html {
         position: relative;
         margin: 5px;
         color: #590242;
-        background: rgba(255, 255, 255, 0.5);
         justify-self: center;
     }
     .trending dl {
@@ -187,58 +188,45 @@ html {
     dt, dd {
         position: relative;
     }
-    
     dd {
         margin-left: 5px;
     }
-    
-    /*.road {
-        background: rgba(255, 255, 255, 0.5);
-        position: relative;
-        text-align: left;
-        padding: 10px 20px 10px 10px;
-        margin-top: 245px;
-    }*/
-    /*.slider {
-        display: flex;
-        align-self: flex-start;
-    }
-    .slider h3 {
+    section .aloma {
         position: absolute;
-        overflow: hidden;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-right: 245px;
-        margin-top: 255px;
+        margin-top: 236px;
+        padding: 10px 225px 10px 10px;
         background: rgba(255, 255, 255, 0.5);
     }
-    .slider dl {
-        display: flex;
+    section .road {
         position: absolute;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-bottom: 5px;
-        padding-right: 235px;
-        margin-top: 282px;
-        margin-bottom: 0px;
+        margin-top: 236px;
+        padding: 10px 180px 10px 10px;
         background: rgba(255, 255, 255, 0.5);
     }
-    .slider dt {
-        float: left;
-        padding-right: 5px;
-        font-style: italic;
+    section .papaya {
+        position: absolute;
+        margin-top: 236px;
+        padding: 10px 166px 10px 10px;
+        background: rgba(255, 255, 255, 0.5);
     }
-    .slider dd {
-        margin: 0;
-        width: 25%;
-    }*/
-    
-    /* Audio */
-    /*.slider audio {
-        position: static;
-        margin-left: -305px;
-        margin-top: 120px;
-    }*/
+    section .smoothies {
+        position: absolute;
+        margin-top: 236px;
+        padding: 10px 91px 10px 10px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    section .smoothies h3 {
+        width: 200px;
+    }
+    section .success {
+        position: absolute;
+        margin-top: 236px;
+        padding: 10px 71px 10px 10px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    section .success h3 {
+        width: 220px;
+    }
     .slider audio::-webkit-media-controls-enclosure {
         background-color: rgba(255, 255, 255, 0.5);
     }
@@ -250,11 +238,6 @@ html {
         background-color: #fff;
         border-radius: 20px;
     }
-    /*.slider2 audio {
-        position: absolute;
-        margin-left: -305px;
-        margin-top: 120px;
-    }*/
     .slider2 audio::-webkit-media-controls-enclosure {
         background-color: rgba(255, 255, 255, 0.5);
     }
@@ -266,35 +249,6 @@ html {
         background-color: #fff;
         border-radius: 20px;
     }
-    /* End Audio */
-    
-    /*.slider2 h3 {
-        position: absolute;
-        width: 80px;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-right: 222px;
-        margin-top: 255px;
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .slider2 dl {
-        position: absolute;
-        overflow: hidden;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-bottom: 5px;
-        padding-right: 185px;
-        margin-top: 282px;
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .slider2 dt {
-        float: left;
-        padding: 0;
-        font-style: italic;
-    }
-    .slider2 dd {
-        width: 50%;
-    }*/
 }
 
 
