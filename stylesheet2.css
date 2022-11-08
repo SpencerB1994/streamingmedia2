@@ -149,6 +149,7 @@ html {
     main {
         background-color: white;
         padding: 10px;
+        position: relative;
     }
     h2 {
         margin: 0px;
@@ -161,36 +162,43 @@ html {
         margin: 0 auto;
         grid-gap: 10px;
         overflow: scroll;
-        overflow-y: hidden;
+        height: 300px;
     }
     .trending audio {
         display: flex;
-        position: absolute;
-        margin-top: -180px;
+        position: relative;
+        margin-top: -220px;
         margin-left: 5px;
         justify-self: center;
-    }
-    div {
-        background: rgba(255, 255, 255, 0.5);
-        position: absolute;
-        text-align: left;
-        padding: 10px 230px 10px 10px;
-    }
-    div h3 {
-        margin: 0px;
-    }
-    dl {
+    }    
+    .trending h3 {
         display: flex;
-        margin-top: 5px;
-        margin-bottom: 0px;
+        position: relative;
+        margin: 5px;
+        color: #590242;
+        background: rgba(255, 255, 255, 0.5);
+        justify-self: center;
     }
-    div > dt, div > dd {
-        position: absolute;
+    .trending dl {
+        display: flex;
+        position: relative;
+        margin: 5px;
+    }
+    dt, dd {
+        position: relative;
     }
     
     dd {
         margin-left: 5px;
     }
+    
+    /*.road {
+        background: rgba(255, 255, 255, 0.5);
+        position: relative;
+        text-align: left;
+        padding: 10px 20px 10px 10px;
+        margin-top: 245px;
+    }*/
     /*.slider {
         display: flex;
         align-self: flex-start;
