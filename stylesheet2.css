@@ -303,6 +303,36 @@ button {
         text-align: center;
         color: white;
     }
+    .playlists::-webkit-scrollbar {
+        width: 10px;
+    }
+    .playlists::-webkit-scrollbar-track {
+        background-color: #1b68c5;
+    }
+    .playlists::-webkit-scrollbar-thumb {
+        background-color: #020959;
+        border-radius: 10px;
+    }
+    .playlists2::-webkit-scrollbar {
+        width: 10px;
+    }
+    .playlists2::-webkit-scrollbar-track {
+        background-color: #1b68c5;
+    }
+    .playlists2::-webkit-scrollbar-thumb {
+        background-color: #020959;
+        border-radius: 10px;
+    }
+    .trending::-webkit-scrollbar {
+        width: 10px;
+    }
+    .trending::-webkit-scrollbar-track {
+        background-color: #cbafc2;
+    }
+    .trending::-webkit-scrollbar-thumb {
+        background-color: #590742;
+        border-radius: 10px;
+    }
 }
 
 
