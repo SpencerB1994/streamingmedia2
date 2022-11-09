@@ -176,6 +176,7 @@ button {
         overflow: scroll;
         overflow-y: hidden;
         height: 335px;
+        color: green;
         padding: 10px;
     }
     .trending audio {
