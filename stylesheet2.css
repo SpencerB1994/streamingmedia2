@@ -424,7 +424,7 @@ footer {
     .playlists section {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        width: 380px;
+        width: 385px;
         margin-bottom: 10px;
     }
     .playlists section div {
@@ -448,7 +448,7 @@ footer {
     .playlists2 section {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        width: 380px;
+        width: 385px;
         margin-bottom: 10px;
     }
     .playlists2 section div {
