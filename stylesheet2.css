@@ -14,6 +14,7 @@ button {
     border-radius: 5px;
     font-family: 'Raleway', Arial, serif;
 }
+
 footer {
     background-color: white;
     padding-bottom: 20px;
@@ -412,19 +413,25 @@ footer {
         width: 834px;
         margin: 0 auto;
     }
+    button {
+        align-self: flex-end;
+        justify-content: flex-end;
+        width: 180px;
+        margin-left: 648px;
+    }
     .playlists {
         display: grid;
         grid-template-columns: 1fr;
-        width: 50%;
         overflow: scroll;
         overflow-x: hidden;
         height: 450px;
         margin-right: 0px;
+        width: 398px;
     }
     .playlists section {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        width: 385px;
+        width: 365px;
         margin-bottom: 10px;
     }
     .playlists section div {
@@ -439,16 +446,16 @@ footer {
     .playlists2 {
         display: grid;
         grid-template-columns: 1fr;
-        width: 50%;
         overflow: scroll;
         overflow-x: hidden;
         height: 450px;
         margin-right: 0px;
+        width: 396px;
     }
     .playlists2 section {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        width: 385px;
+        width: 365px;
         margin-bottom: 10px;
     }
     .playlists2 section div {
@@ -464,6 +471,33 @@ footer {
     }
     .playlists2 section h3 {
         align-items: flex-start;
+    }
+    .column1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 450px 80px;
+        max-width: 51%;
+    }
+    .column1 button {
+        align-self: flex-end;
+        justify-content: flex-end;
+        width: 180px;
+        margin-left: 230px;
+    }
+    .column2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 450px 80px;
+        max-width: 50%;
+    }
+    .column2 button {
+        align-self: flex-end;
+        justify-content: flex-end;
+        width: 180px;
+        margin-left: 230px;
+    }
+    .columns {
+        display: flex;
     }
 }
 
