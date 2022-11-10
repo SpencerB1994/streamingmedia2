@@ -79,6 +79,7 @@ footer {
         text-align: center;
         grid-column: 2 / 2;
         grid-row: 2 / 2;
+        cursor: pointer;
     }
     li a {
         display: block;
@@ -385,6 +386,7 @@ footer {
         justify-content: space-between;
         grid-column: auto;
         background-color: transparent;
+        cursor: pointer;
     }
     li a {
         margin-left: 25px;
@@ -399,6 +401,7 @@ footer {
     }
     li img:hover {
         background-color: transparent;
+        cursor: pointer;
     }
     .menu-open-button {
         display: none;
