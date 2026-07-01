@@ -3,14 +3,15 @@
 <img width="552" height="879" alt="muzakmaker screenshot" src="https://github.com/user-attachments/assets/f49b1e24-0aec-4e1d-a315-b4cb6adaa175" />
 
 ## Overview
-<p><i>MuzakMaker</i> is a fictional music streaming<br>
-This project demonstrates my understanding of HTML and css flexbox by implementing responsive layouts and music file play controls.</p>
+<p><i>MuzakMaker</i> is a fictional music streaming website inspired by modern streaming platforms.<br>
+This project demonstrates my understanding of HTML5, CSS3, Flexbox, responsive layouts, and embedded audio controls.</p>
 
 ## Features
 <ul>
+       <li>Embedded audio playback controls.</li>
        <li>Responsive layout.</li>
-       <li>Music you can listen to/interact with via controls.</li>
-       <li>Stock imagery.</li>
+       <li>Playlist-style content organization.</li>
+       <li>Stock imagery and album artwork.</li>
 </ul>
 
 ## Technologies Used
@@ -25,8 +26,8 @@ This project demonstrates my understanding of HTML and css flexbox by implementi
 
 ## Purpose
 
-<p>Demonstrates my understanding of front-end web development through HTML and CSS as well as the implementation of play controls for audio files.</p>
+<p>This project demostrates my understanding of HTML5, CSS3, responsive layouts, Flexbox, and HTML audio elements.</p>
 
 ## What I learned
 
-<p>This project strengthened my understanding of CSS flexbox, navigation responsiveness, responsive layouts, and implementing interactive UI elements.</p>
+<p>This project strengthened my understanding of CSS flexbox, responsive navigation, responsive layouts, and implementing interactive UI elements.</p>
