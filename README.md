@@ -1,6 +1,6 @@
 # MuzakMaker
 
-<img width="553" height="881" alt="muzakmaker screenshot" src="https://github.com/user-attachments/assets/dd609f54-2bf8-4778-944a-0cae17cd13fd" />
+<img width="552" height="879" alt="muzakmaker screenshot" src="https://github.com/user-attachments/assets/f49b1e24-0aec-4e1d-a315-b4cb6adaa175" />
 
 ## Overview
 <p><i>MuzakMaker</i> is a fictional music streaming<br>
